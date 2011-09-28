@@ -15,11 +15,33 @@
 		text-shadow: none;
 	}
 	.ui-page li.ui-li {
-		float: left;
 		width: 30%;
 		border: 0;
 		margin: 3% 0 0 3%;
 		background: none;
+	}
+	.ui-page li.ui-li.ui-btn-active .ui-link-inherit {
+		color: #333 !important;
+		text-shadow: none;
+	}
+	.ui-page li.ui-li .ui-btn-inner {
+		border: 0;
+		padding: 0;
+	}
+	.ui-page li.ui-li a {
+		margin: 0 auto;
+		width: 70%;
+		padding: 0;
+		overflow: visible;
+	}
+	.ui-page.albums .ui-li .ui-icon {
+		position: relative;
+		float: right;
+		margin: 0 15% 0 0;
+		display: none;
+	}
+	.ui-icon{
+		display: none;
 	}
 }
 
