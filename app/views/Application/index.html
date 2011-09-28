@@ -2,13 +2,15 @@
 #{set title:'Home' /}
 <ul data-role="listview" data-theme="a">
 #{if articles.size() > 0}
-<li>
+
 #{list articles}
-  <a href="@{Application.show(_.id)}">
-	<h2>${_.title}</h2>
-	<p>${_.summary}</p>
-	</a>
+	<li>
+	  <a href="@{Application.show(_.id)}">
+		<h2>${_.title}</h2>
+		<p>${_.summary}</p>
+		</a>
+	</li>
 #{/list}
-</li>
+
 #{/if}
 </ul>
