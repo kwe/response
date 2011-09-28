@@ -2,4 +2,31 @@
 	p{
 		color: red;
 	}
+	ul.ui-listview .ui-link-inherit:before,
+	.ui-li-dec {
+		display: none;
+	}
+	ui.page{
+		list-style: none;
+	}
+	.ui-page.interior {
+		margin: 38px 0 0;
+		color: #fff;
+		text-shadow: none;
+	}
+	.ui-page li.ui-li {
+		float: left;
+		width: 30%;
+		border: 0;
+		margin: 3% 0 0 3%;
+		background: none;
+	}
+}
+
+@media all and (min-device-width: 1200px){
+	.ui-page * {
+		-webkit-transform: none;
+		-moz-transform: none;
+		transform: none;
+	}
 }
